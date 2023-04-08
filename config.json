@@ -7,17 +7,15 @@
     "prompt": "masterpiece, best quality, illustration, beautiful detailed, finely detailed, dramatic light, intricate details"
   },
   "rules": [
-    {
+      {
       "keywords": [
         "SD",
         "sd"
       ],
       "params": {
-        "model": "cjwbw/stable-diffusion-high-resolution",
+        "model": "stability-ai/stable-diffusion",
         "prompt": "best quality",
-        "version": "231e401da17b34aac8f8b3685f662f7fdad9ce1cf504ec0828ba4aac19f7882f",
-        "ori_width": 512,
-        "ori_height": 512,
+        "version": "db21e45d3f7023abc2a46ee38a23973f6dce16bb082a930b0c49861f96d1e5bf",
         "image_dimensions": "512x512"
       },
       "desc": "使用SD模型画图"
