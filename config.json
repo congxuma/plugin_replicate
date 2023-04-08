@@ -22,11 +22,10 @@
     },
     {
       "keywords": [
-        "横版",
-        "壁纸"
+        "横版"
       ],
       "params": {
-        "width": 640,
+        "width": 768,
         "height": 512
       },
       "desc": "分辨率会变成640x512，对SD模型无效"
@@ -48,7 +47,7 @@
       ],
       "params": {
         "width": 512,
-        "height": 640
+        "height": 768
       },
       "desc": "分辨率会变成512x640，对SD模型无效"
     },
@@ -75,7 +74,7 @@
         "model": "cjwbw/future-diffusion",
         "version": "b5c46a3b3f0db2a154d4be534ba7758caded970b748a2e26e6d02e9b3bd7da2a",
         "negative_prompt": "duplicate heads bad anatomy",
-        "prompt": "duplicate heads bad anatomy",
+        "prompt": "future,",
         "num_inference_steps": 20,
         "guidance_scale": 7
       },
@@ -105,7 +104,7 @@
         "model": "m1guelpf/emoji-diffusion",
         "version": "ba30355ce02ca4755d60f7f083e3c0e2593fd3ee687a0dc1fca236deb6046e4d",
         "negative_prompt": "duplicate heads bad anatomy",
-        "prompt": "emoji,",
+        "prompt": "emoji,cute",
         "num_inference_steps": 50,
         "guidance_scale": 7
       },
