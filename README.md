@@ -8,14 +8,18 @@
 
 将`config.json.template`复制为`config.json`，修改`API token`，并修改其中的参数和规则。
 
+> 请**注意**，你需要满足每个`model`规定的`API`限制。
+> 比如: [`anything-v3`](https://replicate.com/cjwbw/anything-v3-better-vae/api) 不支持384的长宽。
+
 `Railway`支持使用环境变量(`replicate_api_token`或`REPLICATE_API_TOKEN`)方式传递`API token`，
 
 ### 画图请求格式
 
-> 请**注意**，你需要满足每个`model`规定的`API`限制。
-> 比如: [`anything-v3`](https://replicate.com/cjwbw/anything-v3-better-vae/api) 不支持384的长宽。
+> 2022.04.09 新增图生图功能，如果关键词需要触发图片输入的模型，请在它的参数中添加```"image": <API规定上传图片的参数名>```
+> 例如：[gfpgan](https://replicate.com/tencentarc/gfpgan/api)的图片上传参数是`img`，那么它的参数中应该添加```"image": "img"```
+> 在触发该关键词后，插件会请求你发送一张图片。
 
-以下是另一个插件`sdwebui`的说明，关键词覆盖的逻辑一样，先拿来用。
+以下是另一个插件[`sdwebui`](https://github.com/lanvent/plugin_sdwebui)的说明，关键词覆盖的逻辑一样，先拿来用。
 
 用户的画图请求格式为:
 

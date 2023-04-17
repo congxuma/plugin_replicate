@@ -69,6 +69,37 @@
         "guidance_scale": 7
       },
       "desc": "使用未来风格模型出图"
+    },
+    {
+      "keywords": [
+        "修复",
+        "fix"
+      ],
+      "params": {
+        "model": "sczhou/codeformer",
+        "version": "7de2ea26c616d5bf2245ad0d5e24f0ff9a6204578a5c876db53142edd9d2cd56",
+        "image": "image",
+        "upscale": 2,
+        "face_upsample": true,
+        "background_enhance": true,
+        "codeformer_fidelity": 0.7
+      },
+      "desc": "修复人像图片"
+    },
+    {
+      "keywords": [
+        "open",
+        "openjourney"
+      ],
+      "params": {
+        "model": "prompthero/openjourney",
+        "version": "9936c2001faa2194a261c01381f90e65261879985476014a0a37a334593a05eb",
+        "negative_prompt": "",
+        "prompt": "mdjrny-v4 style, masterpiece, 8k, best quality, illustration, beautiful detailed, finely detailed, dramatic light, intricate details",
+        "num_inference_steps": 30,
+        "guidance_scale": 7
+      },
+      "desc": "使用openjourney模型出图"
     }
   ]
 }
